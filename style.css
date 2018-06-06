@@ -1,0 +1,56 @@
+body {
+    background-color: lightgray;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+.centered {
+    text-align: center;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+#header {
+    background: url("Image/Picture_1.jpg") no-repeat center top;
+    background-position: center center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 500px;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header h1 {
+    color: white;
+    margin-top: 100px;
+}
+
+#header h2 {
+    color: aqua;
+    letter-spacing: 2px;
+}
+
+#image {
+    background: url("Image/Petrash.jpg") no-repeat center top;
+    background-position: center center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 500px;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
