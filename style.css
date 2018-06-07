@@ -1,16 +1,14 @@
 body {
-    background-color: lightgray;
-    margin-top: 25px;
+    background-color: white;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+
+.col-lg-10, .col-md-10 {
+padding: 0px;
+}
 .centered {
     text-align: center;
-}
-
-a:hover, a:focus {
-    text-decoration: none;
-    outline: 0;
 }
 
 #header {
@@ -27,17 +25,7 @@ a:hover, a:focus {
     background-size: cover;
 }
 
-#header h1 {
-    color: white;
-    margin-top: 100px;
-}
-
-#header h2 {
-    color: aqua;
-    letter-spacing: 2px;
-}
-
-#image {
+#petrash {
     background: url("Image/Petrash.jpg") no-repeat center top;
     background-position: center center;
     padding-top: 25px;
@@ -50,7 +38,59 @@ a:hover, a:focus {
     -o-background-size: cover;
     background-size: cover;
 }
+#image2 {
+    background: url("Image/Picture_2.jpg") no-repeat center top;
+    background-position: center center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 300px;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#image3 {
+     background: url("Image/Picture_3.jpg") no-repeat center top;
+     background-position: center center;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     min-height: 300px;
+     width: 100%;
+     background-size: 100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
+
+#image4 {
+    background: url("Image/Picture_4.jpg") no-repeat center top;
+    background-position: center center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 300px;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gray {
+    background-color: rgb(244, 244, 244);
+}
 
 ul {
     list-style-type: none;
+}
+
+ul li {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
 }
